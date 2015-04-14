@@ -3,8 +3,19 @@
  */
 public class MultiplyStrings {
     public static void main(String[] args) {
-        System.out.println(multiply("292","123"));
+        System.out.println(multiply("999","99"));
     }
+    //十位个位，针对的是以竖为衡量
+    /*比如
+        999
+      x  99
+      -----
+       8991
+      8991
+      -----
+      98901
+      一旦发生溢出（相加超过10）则一路向前修正
+     */
     public static String multiply(String num1,String num2){
         if (null==num1||null==num2||num1.equals("0")||num2.equals("0")){
             return "0";
