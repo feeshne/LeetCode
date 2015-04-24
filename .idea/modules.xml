@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Array/Array.iml" filepath="$PROJECT_DIR$/Array/Array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Backtracking/Backtracking.iml" filepath="$PROJECT_DIR$/Backtracking/Backtracking.iml" />
       <module fileurl="file://$PROJECT_DIR$/BitManipulation/BitManipulation.iml" filepath="$PROJECT_DIR$/BitManipulation/BitManipulation.iml" />
       <module fileurl="file://$PROJECT_DIR$/DataStructure/DataStructure.iml" filepath="$PROJECT_DIR$/DataStructure/DataStructure.iml" />
       <module fileurl="file://$PROJECT_DIR$/LeetCode.iml" filepath="$PROJECT_DIR$/LeetCode.iml" />

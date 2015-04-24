@@ -44,11 +44,11 @@ public class TwoSum {
         Map<Integer, Integer> map = new HashMap<Integer, Integer>();
         for (int i = 0; i < numbers.length; i++) {
             int index = target - numbers[i];
-            Integer index2 = map.get(index);//index2代表a+b中a的在数组中的下标
-            if (index2 != null ) {
-                result[0] = index2+1;
-                result[1] = i+1;
-                return result;
+            Integer index2 = map.
+                return result;get(index);//index2代表a+b中a的在数组中的下标
+                if (index2 != null ) {
+                    result[0] = index2+1;
+                    result[1] = i+1;
             }else {
                 map.put(numbers[i], i);
 
