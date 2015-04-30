@@ -20,7 +20,7 @@ public class LinkedListCycle {
     public static boolean hasCycle(ListNode head) {
         ListNode slow=head;
         ListNode fast=head;
-        while(slow!=null&&fast.next!=null){
+        while(fast!=null&&fast.next!=null){
             //加不加try-catch语句对运行时间影响不大
             try{
                 slow=slow.next;
