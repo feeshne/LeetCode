@@ -1,5 +1,7 @@
 /**
  * Created by Feeshne on 2015/4/13.
+ * ç¼–ç é—®é¢˜ï¼Œæ³¨é‡Šéƒ½æ²¡æœ‰äº†ï¼Œä¸æƒ³å»æ‰¾å›æ¥ã€‚
+ * åº”è¯¥æ˜¯ä¸¤ä¸ªé“¾è¡¨åˆåœ¨ä¸€ä¸ªé“¾è¡¨ä¸Š
  */
 public class IntersectionOfTwoLinkedLists {
     public static void main(String[] args) {
@@ -21,14 +23,6 @@ public class IntersectionOfTwoLinkedLists {
 
     }
 
-    /**
-     * l1³¤¶ÈÎªi+k,l2³¤¶ÈÎªj+k,kÎª¹«¹²³¤¶È
-     * ×ö·¨ÎªÏÈÒÆ¶¯l1ºÍl2µ½¹²Í¬µÄÆğµã,±£³ÖÖ®ºó³¤¶ÈÒ»Ñù
-     *
-     * @param headA
-     * @param headB
-     * @return ¹«¹²µã
-     */
     public static ListNode getIntersectionNode1(ListNode headA, ListNode headB) {
         if (headA == null || headB == null) {
             return null;
@@ -62,13 +56,6 @@ public class IntersectionOfTwoLinkedLists {
         return length;
     }
 
-    /**
-     * ¼ÙÉèl1³¤¶ÈÎªi+k,l2³¤¶ÈÎªj+k,ÄÇÃ´i+k+j=j+k+i,¶Ô°É?
-     *
-     * @param headA
-     * @param headB
-     * @return ¹«¹²µã
-     */
     public static ListNode getIntersectionNode2(ListNode headA, ListNode headB) {
         if (headA == null || headB == null) {
             return null;
