@@ -1,5 +1,6 @@
 /**
  * Created by Feeshne on 15/4/12.
+ * 拿来做测试的把
  */
 public class Main {
     public static void main(String[] args) {
@@ -12,7 +13,8 @@ public class Main {
 //        A a=new A();
 //        A b=new A();
 //        System.out.println(a==b);
-        System.out.println(2%5);
+//        System.out.println(2%5);
+        System.out.println("b a ".trim());
     }
 
 }
