@@ -15,6 +15,8 @@ public class Main {
 //        System.out.println(a==b);
 //        System.out.println(2%5);
         System.out.println("b a ".trim());
+        String[] tmp="1.1.1.1.1".split("\\.");
+        System.out.println("a".charAt(2));
     }
 
 }
